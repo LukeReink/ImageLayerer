@@ -11,21 +11,21 @@ def main():
     # im1.show()
     # im_px = im1.load()
     print("im1:")
-    layerdatThang(im1)
+    layer(im1)
     print("im2:")
-    layerdatThang(im2)
+    layer(im2)
     print("im3:")
-    layerdatThang(im3)
+    layer(im3)
     print("im4:")
-    layerdatThang(im4)
+    layer(im4)
     print("im5:")
-    layerdatThang(im5)
+    layer(im5)
     print("im6:")
-    layerdatThang(im6)
+    layer(im6)
 
 
 
-def layerdatThang(im):
+def layer(im):
     fourThrd, zeroThrd, threeThrd, oneThrd, twoThrd, start4two, start4three = 0,0,0,0,0,0,0
     oneThrd = (int)(im.size[1]/3)
     twoThrd = (int)(im.size[1]*2/3)
